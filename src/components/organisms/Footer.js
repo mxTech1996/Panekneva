@@ -8,15 +8,14 @@ const Footer = () => {
   const router = useRouter();
 
   return (
-
     <FooterComponent
       backgroundColor='transparent'
       legal={footerData}
       onRedirect={(path) => {
         window.open(path, '_blank');
       }}
-      visaImage='/images/visa.png'
-      masterImage='/images/mastercard.png'
+      visaImage='/images/visaMaster.png'
+      masterImage='/images/openpay.jpg'
     />
   );
 };
