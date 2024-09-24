@@ -1,5 +1,5 @@
 export const pageName = 'Panekneva';
-export const primaryColor = '#000000';
+export const primaryColor = '#878C58FF';
 export const backgroundColor = '#FFFFFF';
 export const makeClearBackground = (color) => {
   return {
